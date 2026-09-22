@@ -1,0 +1,18 @@
+Parteli website export validation
+
+Source commit: 9dfb453601f356557c4bc4b5060548ab09f972c9
+Runtime tested: Node.js v24.19.0 on Linux.
+
+PASS: npm run test:motion (6 tests)
+PASS: npm run build (production build)
+PASS: npm run start -- --port 4187 (production server starts)
+PASS: homepage HTTP 200 and 14 referenced local asset URLs return nonempty HTTP 200 responses.
+
+The validation used the existing project's installed dependency tree. A fresh
+npm ci installation on Windows/macOS was not executed. The exported commands
+remove Linux-specific Bash wrappers, but native Windows behavior is unverified.
+No new public deployment was performed for this export.
+
+All website code and graphic assets match the source snapshot. Export-only
+setup/documentation changes are listed in README.md. Installed dependencies,
+generated output, caches, secret environment files, and git history are excluded.

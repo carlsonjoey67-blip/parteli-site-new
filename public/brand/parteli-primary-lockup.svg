@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="175 65 960 395" role="img" aria-labelledby="title desc">
+  <title id="title">Parteli primary logo</title>
+  <desc id="desc">A two-colour abstract Parteli mark with a red upper form, lime vertical accent, and geometric wordmark.</desc>
+  <g transform="translate(80 50)">
+    <path d="M150 28 L370 128 L370 226 L220 310 L220 222 L282 188 L282 171 L150 110 Z" fill="#FF2800"/>
+    <path d="M106 146 L194 194 L194 398 L106 350 Z" fill="#CEFF00"/>
+  </g>
+  <text x="590" y="330" fill="#151515" font-family="Arial Black, DejaVu Sans, sans-serif" font-size="106" font-weight="900" letter-spacing="10" transform="skewX(-7)">PARTELI</text>
+</svg>
